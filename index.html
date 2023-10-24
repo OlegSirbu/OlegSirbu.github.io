@@ -1,27 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oleg Sirbu's Profile</title>
+    <title>Oleg Syrbu's CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
 
-        img.profile-picture {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .contact-info {
+            font-size: 0.9em;
             margin-bottom: 20px;
+        }
+
+        .job-title {
+            font-weight: bold;
+        }
+
+        .job-company {
+            color: #555;
+        }
+
+        .job-description {
+            margin-left: 20px;
         }
     </style>
 </head>
+
 <body>
-    <img src="https://avatars.githubusercontent.com/OlegSirbu" alt="Oleg Sirbu's Profile Picture" class="profile-picture">
-    <h1>Oleg Sirbu</h1>
-    <p>Welcome to my GitHub profile page.</p>
+
+    <h1>Oleg Syrbu</h1>
+    <div class="contact-info">
+        Barcelona, Spain | <a href="mailto:olegsirbu2@gmail.com">olegsirbu2@gmail.com</a> | +34610780596 | <a href="https://www.linkedin.com/in/oleg-syrbu-3b181a82">LinkedIn</a> | <a href="https://github.com/olegSirbu">GitHub</a>
+    </div>
+
+    <p>
+        Senior JavaScript Engineer with over 11 years of rich development experience. Passionate about the latest IT advancements. My extensive contributions can be witnessed on my active <a href="https://github.com/olegSirbu">GitHub profile</a>.
+    </p>
+
+    <h2>PROFESSIONAL SKILLS</h2>
+    <ul>
+        <li>Lang: JavaScript, TypeScript, ES6, NodeJS, HTML, CSS</li>
+        <li>Frameworks: ReactJS, Redux, GraphQL, Apollo, SWR, Bootstrap3, Tailwind</li>
+        <li>Cloud: AWS (S3, Dynamo, Lambda), Docker</li>
+        <li>Tools: Webpack, NPM, GIT</li>
+        <li>Testing: Jest, Cypress, Mocha, Storybook</li>
+        <li>CI/CD: Travis, Teamcity, Jenkins</li>
+    </ul>
+
+    <h2>PROFESSIONAL EXPERIENCE</h2>
+
+    <div class="job">
+        <h3 class="job-title">Senior JavaScript/React Developer</h3>
+        <p class="job-company">Miresource | June 2021 - Nov 2023</p>
+        <ul class="job-description">
+            <li>Designed an advanced therapist search with geo-location and multiple filters.</li>
+            <li>Improved code quality, achieving 90% test coverage with unit and integration tests.</li>
+            <li>Introduced Storybook showcasing key components.</li>
+            <li>Updated the project with the latest technological advancements.</li>
+            <li>Crafted UI components focused on accessibility.</li>
+        </ul>
+    </div>
+
+    <!-- More job sections go here... you can follow the structure above -->
+
+    <h2>EDUCATION</h2>
+    <p><strong>National Aviation University, Institute of Electronics and Control Systems (2011)</strong><br>
+        Special aviation computer integrated systems (Master of Science)
+    </p>
+
 </body>
+
 </html>
