@@ -7,9 +7,18 @@
     <title>Oleg Syrbu's CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             max-width: 800px;
             margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
 
@@ -19,79 +28,57 @@
 
         a {
             color: #007BFF;
-            text-decoration: none;
         }
 
         a:hover {
             text-decoration: underline;
         }
 
-        ul {
-            list-style-type: none;
-            padding-left: 0;
+        .profile-picture {
+            border-radius: 50%;
+            width: 150px;
+            margin: 10px auto;
+            display: block;
         }
 
         .contact-info {
             font-size: 0.9em;
             margin-bottom: 20px;
+            border-top: 1px solid #e0e0e0;
+            border-bottom: 1px solid #e0e0e0;
+            padding: 10px 0;
         }
 
-        .job-title {
-            font-weight: bold;
+        .download-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #FFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            transition: background-color 0.2s;
         }
 
-        .job-company {
-            color: #555;
-        }
-
-        .job-description {
-            margin-left: 20px;
+        .download-btn:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 
 <body>
+    <div class="container">
+        <img src="https://avatars.githubusercontent.com/OlegSirbu" alt="Oleg Sirbu's Profile Picture" class="profile-picture">
+        <h1>Oleg Syrbu</h1>
+        <div class="contact-info">
+            Barcelona, Spain | <a href="mailto:olegsirbu2@gmail.com">olegsirbu2@gmail.com</a> | +34610780596 | <a href="https://www.linkedin.com/in/oleh-syrbu-3b181a82/">LinkedIn</a> | <a href="https://github.com/olegSirbu">GitHub</a>
+        </div>
 
-    <h1>Oleg Syrbu</h1>
-    <div class="contact-info">
-        Barcelona, Spain | <a href="mailto:olegsirbu2@gmail.com">olegsirbu2@gmail.com</a> | +34610780596 | <a href="https://www.linkedin.com/in/oleg-syrbu-3b181a82">LinkedIn</a> | <a href="https://github.com/olegSirbu">GitHub</a>
+        <p>
+            Senior JavaScript Engineer with over 11 years of rich development experience. Passionate about the latest IT advancements.
+        </p>
+        <a href="https://drive.google.com/file/d/12lCZNK1CipexU74kFgsMnBhgkQ2P4Dcs/view" class="download-btn" download>Download My CV</a>
     </div>
-
-    <p>
-        Senior JavaScript Engineer with over 11 years of rich development experience. Passionate about the latest IT advancements. My extensive contributions can be witnessed on my active <a href="https://github.com/olegSirbu">GitHub profile</a>.
-    </p>
-
-    <h2>PROFESSIONAL SKILLS</h2>
-    <ul>
-        <li>Lang: JavaScript, TypeScript, ES6, NodeJS, HTML, CSS</li>
-        <li>Frameworks: ReactJS, Redux, GraphQL, Apollo, SWR, Bootstrap3, Tailwind</li>
-        <li>Cloud: AWS (S3, Dynamo, Lambda), Docker</li>
-        <li>Tools: Webpack, NPM, GIT</li>
-        <li>Testing: Jest, Cypress, Mocha, Storybook</li>
-        <li>CI/CD: Travis, Teamcity, Jenkins</li>
-    </ul>
-
-    <h2>PROFESSIONAL EXPERIENCE</h2>
-
-    <div class="job">
-        <h3 class="job-title">Senior JavaScript/React Developer</h3>
-        <p class="job-company">Miresource | June 2021 - Nov 2023</p>
-        <ul class="job-description">
-            <li>Designed an advanced therapist search with geo-location and multiple filters.</li>
-            <li>Improved code quality, achieving 90% test coverage with unit and integration tests.</li>
-            <li>Introduced Storybook showcasing key components.</li>
-            <li>Updated the project with the latest technological advancements.</li>
-            <li>Crafted UI components focused on accessibility.</li>
-        </ul>
-    </div>
-
-    <!-- More job sections go here... you can follow the structure above -->
-
-    <h2>EDUCATION</h2>
-    <p><strong>National Aviation University, Institute of Electronics and Control Systems (2011)</strong><br>
-        Special aviation computer integrated systems (Master of Science)
-    </p>
-
 </body>
 
 </html>
